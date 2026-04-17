@@ -1,0 +1,32 @@
+# React Native
+.node_modules/
+*.log
+*.js.map
+*.pb.js
+*.pb.ts
+*.tsbuildinfo
+
+# Android
+android/.gradle/
+android/app/src/main/assets/**/*.png
+android/app/src/main/res/**/drawable-nodpi/**/*.png
+android/app/src/main/res/**/drawable-mdpi/**/*.png
+android/app/src/main/res/**/drawable-hdpi/**/*.png
+android/app/src/main/res/**/drawable-xhdpi/**/*.png
+android/app/src/prod/assets/
+android/app/src/release/outputs/
+
+# iOS
+ios/Pods/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+ios/DerivedData/
+
+# Build
+build/
+
+# Other
+.env
+*.jks
+*.keystore
+*.swp
